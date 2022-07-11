@@ -1,0 +1,166 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'jo-pereira.com'
+theme = 'hello-friend-ng'
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+paginate  = 10
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "João Pereira"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  # tag      = "tags"
+  # category = "categories"
+  # series   = "series"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Metadata mostly used in document's head
+  #
+  description = "my own website"
+  keywords = ""
+  images = [""]
+
+  homeSubtitle = "Software Engineer @<a href='https://criticalmanufacturing.com' target='_blank' rel='noopener'>CriticalManufacturing</a>"
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  #
+  gitUrl = "https://github.com/joaoopereira/joaoopereira"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  #
+  disableReadOtherPosts = false
+
+  # Sharing buttons
+  #
+  # There are a lot of buttons preconfigured. If you want to change them,
+  # generate the buttons here: https://sharingbuttons.io
+  # and add them into your own `layouts/partials/sharing-buttons.html`
+  #
+  enableSharingButtons = false
+
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  #
+  customCSS = []
+  customJS  = []
+
+  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
+  #
+  justifyContent = false  # Set "text-align: justify" to .post-content.
+
+  # Default theme "light" or "dark"
+  #
+  defaultTheme = "dark"
+  themeColor = "#252627"
+
+  # Custom footer
+  # If you want, you can easily override the default footer with your own content.
+  #
+  footerLeft = "build with <a href=\"http://gohugo.io\">Hugo</a>"
+  footerRight = "theme <a href=https://themes.gohugo.io/hugo-theme-hello-friend-ng>hello-friend-ng</a>"
+
+  # Colors for favicons
+  #
+  [params.favicon.color]
+    mask = "#252627"
+    msapplication = "#252627"
+    theme = "#252627"
+
+  [params.logo]
+    logoText     = "jo-pereira.com"
+    logoHomeLink = "/"
+    # Set true to remove the logo cursor entirely.
+    # logoCursorDisabled = false
+    # Set to a valid CSS color to change the cursor in the logo.
+    # logoCursorColor    = "#67a2c9"
+    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+    # logoCursorAnimate  = "2s"
+
+  # Uncomment this if you want a portrait on your start page
+  #
+  # [params.portrait]
+  #   path     = "/img/image.jpg"
+  #   alt      = "Portrait"
+  #   maxWidth = "50px"
+
+  # Social icons
+  # [[params.social]]
+  #   name = "twitter"
+  #   url  = "https://twitter.com/"
+
+  # [[params.social]]
+  #   name = "email"
+  #   url  = "mailto:nobody@example.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/joaoopereira"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/joaoopereira/"
+
+  # [[params.social]]
+  #   name = "stackoverflow"
+  #   url  = "https://www.stackoverflow.com/"
+
+[languages]
+  [languages.en]
+    title = "João Pereira"
+    subtitle  = "jo-pereira.com"
+    weight    = 1
+    copyright = ""#'<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    disableKinds = ["RSS"]
+
+[menu]
+  [[menu.main]]
+    identifier = "career"
+    name       = "career"
+    url        = "career/"
+  [[menu.main]]
+    identifier = "about"
+    name       = "about"
+    url        = "about/"
+#  [[menu.main]]
+#    identifier = "posts"
+#    name       = "Posts"
+#    url        = "posts/"

@@ -13,4 +13,4 @@ light technician [@retorta](https://retorta.com).
 
 board member [@retorta](https://retorta.com).
 
-[@fcporto](https://fcporto.pt) member.
+[@fcporto](https://www.fcporto.pt/pt) supporter since 1993.

@@ -1,0 +1,15 @@
+{{ define "main" }}
+{{ $url := "https://api.github.com/users/joaoopereira/repos" }}
+<h1>{{ .Title }}</h1>
+<table>
+    {{ range sort (getJSON $url) }}
+        {{ if eq .fork false }}
+            <tr>
+                <td style="text-align: right !important;"><a target="_blank" href="{{.html_url}}">{{ .name }}</a></td>
+                <td>|</td>
+                <td style="text-align: left !important;">{{.description}}</td>
+            </tr>
+        {{ end }}
+    {{ end }}
+</table>
+{{ end }}

@@ -153,6 +153,10 @@ disableHugoGeneratorInject = false
 
 [menu]
   [[menu.main]]
+    identifier = "repos"
+    name       = "repos"
+    url        = "repos/"
+  [[menu.main]]
     identifier = "career"
     name       = "career"
     url        = "career/"

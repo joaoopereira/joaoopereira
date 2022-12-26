@@ -1,9 +1,6 @@
-+++
-aliases = ["about"]
-title = "about me"
-author = ""
-tags = ["personal"]
-+++
+---
+title: "about me"
+---
 
 *where is a will there's a way*
 

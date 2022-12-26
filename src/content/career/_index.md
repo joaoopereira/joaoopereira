@@ -1,9 +1,6 @@
-+++
-aliases = ["career"]
-title = "my career"
-author = ""
-tags = ["personal"]
-+++
+---
+title: "my career"
+---
 
 My work experience started as PHP developer at Hutchinson Porto IT department. There I developed a small Manufacturing Execution System and other internal applications. I also helped to manage the on-site infrastructure of the company working with VMware and Windows Server.
 

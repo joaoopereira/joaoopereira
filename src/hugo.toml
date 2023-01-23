@@ -68,7 +68,7 @@ disableHugoGeneratorInject = false
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   #
-  # gitUrl = ""
+  gitUrl = "https://github.com/joaoopereira/joaoopereira/commit/"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   #
@@ -193,4 +193,4 @@ disableHugoGeneratorInject = false
   [[menu.main]]
     identifier = "cv"
     name       = "cv"
-    url        = "files/CV-JoaoPereira-EN.pdf"
+    url        = "cv/"

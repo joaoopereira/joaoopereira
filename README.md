@@ -12,4 +12,4 @@ Want to know me better? Check my personal website: [jo-pereira.com](https://jo-p
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=joaoopereira&theme=github)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=joaoopereira&theme=github)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=joaoopereira&theme=github)
-![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=joaoopereira&theme=github&utcOffset=8)
+![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=joaoopereira&theme=github)

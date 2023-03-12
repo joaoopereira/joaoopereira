@@ -10,7 +10,7 @@ dad since 2020
 
 board member [@retorta](https://retorta.com)
 
-light designer [@retorta](https://retorta.com)
+lighting designer [@retorta](https://retorta.com)
 
 "Orlando Worm" award for better light design [@CONTE](https://www.povoadelanhoso.pt/xviii-concurso-nacional-teatro-ruy-carvalho):
 |  |  |

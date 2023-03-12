@@ -61,7 +61,7 @@ disableHugoGeneratorInject = false
 
   # Home subtitle of the index page.
   #
-  homeSubtitle = "DevOps Engineer @<a href='https://criticalmanufacturing.com' target='_blank' rel='noopener'>CriticalManufacturing</a>"
+  homeSubtitle = "DevOps Engineer @<a href='https://criticalmanufacturing.com' target='_blank' rel='noopener'>Critical Manufacturing</a><br>Lighting Designer @<a href='https://retorta.com' target='_blank' rel='noopener'>Retorta</a>"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"

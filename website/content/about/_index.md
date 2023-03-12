@@ -19,4 +19,4 @@ light designer [@retorta](https://retorta.com)
 | 2016 | \| [mulheres](https://www.retorta.com/retorta-teatro/mulheres) |
 | 2017 | \| [Palco de Babel](https://www.retorta.com/retorta-teatro/palco-de-babel) |
 | 2020 | \| (nominated) [A Importância de ser Ernesto](https://www.retorta.com/retorta-teatro/a-importancia-de-ser-ernesto) |
-| 2023 | \| (nominated) [Até que a Boda nos Separe](https://www.retorta.com/retorta-teatro/ate-que-a-boda-nos-separe) |
+| 2023 | \| [Até que a Boda nos Separe](https://www.retorta.com/retorta-teatro/ate-que-a-boda-nos-separe) |

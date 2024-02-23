@@ -1,7 +1,7 @@
 ## 👋 Hi, I’m [@joaoopereira](https://github.com/joaoopereira)
 
 ### about
-Want to know me better? Check my personal website: [jo-pereira.com](https://jo-pereira.com) website built with [Hugo](https://gohugo.io/)
+Want to know me better? Check my personal website: [joaoopereira.com](https://joaoopereira.com) website built with [Hugo](https://gohugo.io/)
 
 ### website deploy status
 

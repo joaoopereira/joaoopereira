@@ -1,0 +1,13 @@
+---
+title: "my career"
+---
+
+My career began as a PHP developer at Hutchinson Porto’s IT department. In those initial years, I developed internal applications and managed the on-site infrastructure, laying the foundation for a lifelong passion for building reliable, scalable solutions. This early experience instilled in me the value of practical problem-solving and the drive to continuously learn and innovate.
+
+Upon joining Critical Manufacturing, in 2017, I embarked on an exciting evolution. Starting as a Junior Software Engineer, I quickly advanced through roles of increasing responsibility—from crafting tailored software solutions for one of the world’s most advanced Manufacturing Execution Systems (MES) to taking on critical roles in software design and product customization. As I honed my skills in C#, .NET, and SQL, I became a trusted Technical Lead, ensuring high standards in code quality and guiding development teams through complex MES deployments.
+
+A pivotal moment in my journey came in 2019 when I co-founded the DevOps team at Critical Manufacturing. This initiative was not just a career milestone—it was a transformative step towards modernizing our processes. I played a central role in standardizing and automating the deployment pipelines using Azure DevOps YAML, and I was instrumental in designing tools that enhanced the developer experience. My contributions extended to the open source community with the [Critical Manufacturing Framework CLI](https://github.com/criticalmanufacturing/cli) and my own project, [dotnet-test-rerun](https://github.com/joaoopereira/dotnet-test-rerun), underscoring my commitment to innovation and collaboration.
+
+Today, as Platform Engineering Lead, I stand at the forefront of our technical evolution. I oversee a dynamic team divided into two specialized squads: one dedicated to Platform Deployment and Support—ensuring seamless Kubernetes and OpenShift deployments for our customers—and another focused on Developer Platform and Tooling, constantly refining our automation, CI/CD pipelines, and overall developer experience. In this role, I merge deep technical expertise with visionary leadership, setting strategic roadmaps that align technology with business goals while fostering a culture of continuous improvement and excellence.
+
+Every chapter of my career has been driven by a relentless quest for innovation, the courage to take on new challenges, and the belief that technology, when applied creatively and thoughtfully, can transform industries and lives. My journey is a testament to the power of growth through learning and the impact of leading teams to push the boundaries of what’s possible.

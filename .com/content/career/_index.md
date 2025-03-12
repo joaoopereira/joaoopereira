@@ -1,3 +1,7 @@
+---
+title: "my career"
+---
+
 My career began as a PHP developer at Hutchinson Porto’s IT department. In those initial years, I developed internal applications and managed the on-site infrastructure, laying the foundation for a lifelong passion for building reliable, scalable solutions. This early experience instilled in me the value of practical problem-solving and the drive to continuously learn and innovate.
 
 Upon joining Critical Manufacturing, in 2017, I embarked on an exciting evolution. Starting as a Junior Software Engineer, I quickly advanced through roles of increasing responsibility—from crafting tailored software solutions for one of the world’s most advanced Manufacturing Execution Systems (MES) to taking on critical roles in software design and product customization. As I honed my skills in C#, .NET, and SQL, I became a trusted Technical Lead, ensuring high standards in code quality and guiding development teams through complex MES deployments.

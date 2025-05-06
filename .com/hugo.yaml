@@ -36,7 +36,11 @@ menu:
       name: career
       url: /career/
       weight: 20
+    - identifier: blog
+      name: blog
+      url: /blog/
+      weight: 30
     - identifier: cv
       name: cv
       url: /files/2025-CV-JoaoPereira-EN.pdf
-      weight: 30
+      weight: 40

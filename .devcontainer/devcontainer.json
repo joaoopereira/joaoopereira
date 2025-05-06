@@ -10,7 +10,7 @@
 		"ghcr.io/devcontainers/features/go": {},
 		"ghcr.io/devcontainers/features/hugo:": {
 			"extended": true,
-			"version": "0.145.0"
+			"version": "0.147.1"
 		}
 	}
 }

@@ -4,8 +4,28 @@ backend:
 media_folder: static/img
 public_folder: /img
 collections:
+  - name: 'about'
+    label: 'About'
+    folder: '.com/content/about'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: true 
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'career'
+    label: 'Career'
+    folder: '.com/content/career'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: true 
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'blog'
-    label: 'Blog'
+    label: 'Posts'
     folder: '.com/content/blog'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'

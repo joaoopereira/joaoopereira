@@ -1,6 +1,6 @@
 ### Hi, I'm João 👋
 
-Collaboration Hub & Cloud Domain Lead at [Critical Manufacturing](https://criticalmanufacturing.com) in Porto, Portugal. Before that I led Platform Engineering: the Kubernetes and OpenShift platforms our MES ships on, plus the CI/CD and developer tooling behind it.
+Collaboration Hub & Cloud Domain Lead at [Critical Manufacturing](https://criticalmanufacturing.com) in Porto, Portugal, where I own the Collaboration Hub product and the cloud it runs on. Before that I led Platform Engineering: the Kubernetes and OpenShift platforms our MES ships on, plus the CI/CD and developer tooling behind it.
 
 - 🔁 [**dotnet-test-rerun**](https://github.com/joaoopereira/dotnet-test-rerun): reruns failed .NET tests so one flaky test doesn't fail the pipeline
 - 🛠️ [**criticalmanufacturing/cli**](https://github.com/criticalmanufacturing/cli): the open-source CLI for Critical Manufacturing projects

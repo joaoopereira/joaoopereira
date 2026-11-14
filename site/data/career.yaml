@@ -3,6 +3,10 @@
   org: Critical Manufacturing
   from: 2026
   to: now
+  summary: Own the Collaboration Hub product and the cloud it runs on, from the self-service platform customers and partners use to the SaaS infrastructure behind it.
+  points:
+    - "Collaboration Hub and developer experience: environments, DevBoxes, cmf-cli, scaffolding, CI/CD templates and project-facing AI tooling."
+    - "Cloud platform and SaaS operations: EKS, Terraform, security baselines and FinOps, plus provisioning, upgrades, monitoring and disaster recovery for customer environments."
 - role: Platform Engineering Lead
   org: Critical Manufacturing
   from: 2025

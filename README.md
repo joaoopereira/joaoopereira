@@ -1,16 +1,11 @@
-## 👋 Hi, I’m [@joaoopereira](https://github.com/joaoopereira)
+### Hi, I'm João 👋
 
-### 🌐 About Me
-Want to know me better? Check out my personal website: [joaoopereira.com](https://joaoopereira.com). It's built with the amazing [Hugo](https://gohugo.io/) framework!
+Platform Engineering Lead at [Critical Manufacturing](https://criticalmanufacturing.com) in Porto, Portugal. My team runs the Kubernetes and OpenShift platforms our MES ships on, plus the CI/CD and developer tooling behind it.
 
-### 📊 GitHub Stats
-![Profile Details](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=joaoopereira&theme=github)
-![Most Commit Language](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=joaoopereira&theme=github)
-![Stats](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=joaoopereira&theme=github)
-![Productive Time](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=joaoopereira&theme=github)
+- 🔁 [**dotnet-test-rerun**](https://github.com/joaoopereira/dotnet-test-rerun): reruns failed .NET tests so one flaky test doesn't fail the pipeline
+- 🛠️ [**criticalmanufacturing/cli**](https://github.com/criticalmanufacturing/cli): the open-source CLI for Critical Manufacturing projects
+- 💡 Off the clock I design theatre lighting for [Retorta](https://retorta.com)
 
-### 📫 Connect with Me
-- [LinkedIn](https://www.linkedin.com/in/joaoopereira)
-- [Email](mailto:mail@joaoopereira.com)
+[joaoopereira.com](https://joaoopereira.com) · [LinkedIn](https://www.linkedin.com/in/joaoopereira) · [mail@joaoopereira.com](mailto:mail@joaoopereira.com)
 
-Thanks for visiting my profile! Feel free to reach out if you want to collaborate on any projects or just say hi! 😊
+<!-- The website lives in site/ (Hugo, deployed to Cloudflare Pages). -->

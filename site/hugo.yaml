@@ -1,17 +1,17 @@
 baseURL: https://joaoopereira.com/
 languageCode: en-us
-title: João Pereira · Platform Engineering Lead
+title: João Pereira · Collaboration Hub & Cloud Domain Lead
 disableKinds: [taxonomy, term, section, RSS]
 enableRobotsTXT: false
 
 params:
   name: João Octávio Pereira
   shortName: João Pereira
-  role: Platform Engineering Lead
+  role: Collaboration Hub & Cloud Domain Lead
   company: Critical Manufacturing
   companyURL: https://criticalmanufacturing.com
   location: Porto, Portugal
-  description: "João Pereira, Platform Engineering Lead at Critical Manufacturing in Porto. Kubernetes, OpenShift, CI/CD and developer tooling, plus award-winning theatre lighting design."
+  description: "João Pereira, Collaboration Hub & Cloud Domain Lead at Critical Manufacturing in Porto. Kubernetes, OpenShift, CI/CD and developer tooling, plus award-winning theatre lighting design."
   email: mail@joaoopereira.com
   cv: /cv.pdf
   links:

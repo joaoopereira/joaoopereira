@@ -1,9 +1,13 @@
-# Newest first. Shown as the career timeline.
+# Newest first. Shown as the career timeline. summary and points are optional.
+- role: Collaboration Hub & Cloud Domain Lead
+  org: Critical Manufacturing
+  from: 2026
+  to: now
 - role: Platform Engineering Lead
   org: Critical Manufacturing
   from: 2025
-  to: now
-  summary: Lead the Platform Engineering team and set its roadmap, with two squads under it.
+  to: 2026
+  summary: Led the Platform Engineering team and set its roadmap, with two squads under it.
   points:
     - "Platform Deployment and Support (PDS): Kubernetes and OpenShift deployments for customers."
     - "Developer Platform and Tooling (DPT): CI/CD, automation and developer experience across engineering."

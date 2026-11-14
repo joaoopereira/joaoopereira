@@ -20,7 +20,7 @@
       <p class="when">{{ .from }}–{{ if eq (string .to) "now" }}<span class="now">now</span>{{ else }}{{ .to }}{{ end }}</p>
       <div>
         <h3>{{ .role }} <span class="org">· {{ .org }}</span></h3>
-        <p>{{ .summary }}</p>
+        {{- with .summary }}<p>{{ . }}</p>{{ end }}
         {{- with .points }}
         <ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
         {{- end }}

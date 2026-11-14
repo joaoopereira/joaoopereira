@@ -1,7 +1,7 @@
 baseURL: https://joaoopereira.com/
 languageCode: en-us
 title: João Pereira · Collaboration Hub & Cloud Domain Lead
-disableKinds: [taxonomy, term, section, RSS]
+disableKinds: [taxonomy, term]
 enableRobotsTXT: false
 
 params:

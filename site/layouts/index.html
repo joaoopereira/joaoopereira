@@ -42,6 +42,13 @@
   </ul>
 </section>
 
+{{- with (where site.RegularPages "Section" "blog") }}
+<section id="writing" aria-labelledby="writing-h">
+  <h2 id="writing-h"><span aria-hidden="true">$ </span>writing</h2>
+  {{ partial "post-list.html" (first 3 .) }}
+</section>
+{{- end }}
+
 <section id="lighting" aria-labelledby="lighting-h">
   <h2 id="lighting-h"><span aria-hidden="true">$ </span>lighting design</h2>
   <p>I design light for <a href="https://retorta.com">Retorta</a>, an amateur theatre company where I also sit on the board. My work has won the “Orlando Worm” award for best light design at CONTE, Portugal's national amateur theatre competition.</p>

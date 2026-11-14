@@ -1,7 +1,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {{- $title := cond .IsHome site.Title (printf "%s · %s" .Title site.Params.shortName) }}
-{{- $desc := site.Params.description }}
+{{- $desc := .Description | default site.Params.description }}
 <title>{{ $title }}</title>
 <meta name="description" content="{{ $desc }}">
 <meta name="author" content="{{ site.Params.shortName }}">
@@ -12,7 +12,9 @@
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<meta property="og:type" content="profile">
+{{- with site.GetPage "/blog" }}{{ with .OutputFormats.Get "rss" }}
+<link rel="alternate" type="application/rss+xml" href="{{ .Permalink }}" title="{{ site.Params.shortName }} · blog">{{ end }}{{ end }}
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}profile{{ end }}">
 <meta property="og:title" content="{{ $title }}">
 <meta property="og:description" content="{{ $desc }}">
 <meta property="og:url" content="{{ .Permalink }}">

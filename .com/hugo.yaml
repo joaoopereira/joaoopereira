@@ -1,13 +1,18 @@
-baseURL: /
+baseURL: https://joaoopereira.com/
 languageCode: en-us
 title: João Pereira - Platform Engineering Lead
 theme: github.com/adityatelange/hugo-PaperMod
+disableKinds:
+  - taxonomy
+  - term
 
 module:
   imports:
     path: github.com/adityatelange/hugo-PaperMod
 
 params:
+  description: "João Pereira, Platform Engineering Lead at Critical Manufacturing in Porto. Kubernetes, CI/CD and developer tooling, plus award-winning theatre lighting design."
+  author: João Pereira
   # navbar title
   label:
     text: cd /home

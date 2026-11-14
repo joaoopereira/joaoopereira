@@ -2,11 +2,12 @@
 title: "about me"
 ---
 
-*where is a will there's a way*
+*where there's a will, there's a way*
 
 I’m João Pereira – a passionate technologist, creative lighting designer, and dedicated leader. Married and proud dad of two kids, I bring the same commitment and enthusiasm from my personal passions into my professional life.
 
 In addition to my work in technology, I serve as a board member and lighting designer at [Retorta](https://retorta.com), where my creative vision has been recognized with the “Orlando Worm” award for outstanding light design at CONTE - Concurso Nacional de Teatro Amador:
+
 | Year | Show                                                                                                             |
 | ---- | ---------------------------------------------------------------------------------------------------------------- |
 | 2015 | [Óculos de Sol](https://www.retorta.com/retorta-teatro/oculos-de-sol)                                            |

@@ -4,7 +4,7 @@ Collaboration Hub & Cloud Domain Lead at [Critical Manufacturing](https://critic
 
 - 🔁 [**dotnet-test-rerun**](https://github.com/joaoopereira/dotnet-test-rerun): reruns failed .NET tests so one flaky test doesn't fail the pipeline
 - 🛠️ [**criticalmanufacturing/cli**](https://github.com/criticalmanufacturing/cli): the open-source CLI for Critical Manufacturing projects
-- 💡 Off the clock I design theatre lighting for [Retorta](https://retorta.com)
+- 💡 Off the clock I'm on the board of [Retorta](https://retorta.com) and design lighting for its theatre group
 
 [joaoopereira.com](https://joaoopereira.com) · [LinkedIn](https://www.linkedin.com/in/joaoopereira) · [mail@joaoopereira.com](mailto:mail@joaoopereira.com)
 

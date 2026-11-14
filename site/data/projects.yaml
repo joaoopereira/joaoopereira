@@ -1,0 +1,6 @@
+- name: dotnet-test-rerun
+  url: https://github.com/joaoopereira/dotnet-test-rerun
+  description: A .NET tool that reruns failed tests until they pass, so one flaky test no longer fails a whole pipeline. Published on NuGet and Docker Hub.
+- name: Critical Manufacturing CLI
+  url: https://github.com/criticalmanufacturing/cli
+  description: The open-source command-line tool for Critical Manufacturing projects, used to scaffold, build and package MES customisations outside Azure DevOps.

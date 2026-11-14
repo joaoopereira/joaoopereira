@@ -1,0 +1,21 @@
+baseURL: https://joaoopereira.com/
+languageCode: en-us
+title: João Pereira · Platform Engineering Lead
+disableKinds: [taxonomy, term, section, RSS]
+enableRobotsTXT: false
+
+params:
+  name: João Octávio Pereira
+  shortName: João Pereira
+  role: Platform Engineering Lead
+  company: Critical Manufacturing
+  companyURL: https://criticalmanufacturing.com
+  location: Porto, Portugal
+  description: "João Pereira, Platform Engineering Lead at Critical Manufacturing in Porto. Kubernetes, OpenShift, CI/CD and developer tooling, plus award-winning theatre lighting design."
+  email: mail@joaoopereira.com
+  cv: /cv.pdf
+  links:
+    - name: GitHub
+      url: https://github.com/joaoopereira
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/joaoopereira/

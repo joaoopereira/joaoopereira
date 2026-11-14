@@ -1,7 +1,7 @@
 # Newest first. Shown as the career timeline. summary and points are optional.
 - role: Collaboration Hub & Cloud Domain Lead
   org: Critical Manufacturing
-  from: 2026
+  from: "Nov 2026"
   to: now
   summary: Own the Collaboration Hub product and the cloud it runs on, from the self-service platform customers and partners use to the SaaS infrastructure behind it.
   points:
@@ -9,32 +9,32 @@
     - "Cloud platform and SaaS operations: EKS, Terraform, security baselines and FinOps, plus provisioning, upgrades, monitoring and disaster recovery for customer environments."
 - role: Platform Engineering Lead
   org: Critical Manufacturing
-  from: 2025
-  to: 2026
+  from: "Feb 2025"
+  to: "Nov 2026"
   summary: Led the Platform Engineering team and set its roadmap, with two squads under it.
   points:
     - "Platform Deployment and Support (PDS): Kubernetes and OpenShift deployments for customers."
     - "Developer Platform and Tooling (DPT): CI/CD, automation and developer experience across engineering."
 - role: Squad Lead, Platform Engineering | Integration & Delivery
   org: Critical Manufacturing
-  from: 2024
-  to: 2025
+  from: "Apr 2024"
+  to: "Feb 2025"
   summary: Led the squad running the internal OpenShift cluster, Azure DevOps pipelines and Ansible automation.
 - role: DevOps Engineer
   org: Critical Manufacturing
-  from: 2022
-  to: 2024
+  from: "Sep 2022"
+  to: "Apr 2024"
   summary: Co-founded the DevOps team and replaced per-team deployment scripts with standard Azure DevOps YAML pipelines.
   points:
     - Built developer tooling, including the open-source Critical Manufacturing Framework CLI.
     - Led MES deployments on Docker Swarm, Kubernetes and OpenShift.
 - role: Software Engineer → Senior Software Engineer
   org: Critical Manufacturing
-  from: 2017
-  to: 2022
+  from: "Mar 2017"
+  to: "Sep 2022"
   summary: Designed and customised the Critical Manufacturing MES in C#, .NET, Angular and SQL Server, and acted as technical lead for project teams.
 - role: Developer
   org: Hutchinson Porto
-  from: 2015
-  to: 2017
+  from: "Mar 2015"
+  to: "Mar 2017"
   summary: Built internal PHP applications and helped run the on-site infrastructure.

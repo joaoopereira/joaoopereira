@@ -71,7 +71,7 @@ p { margin: 0 0 1rem; }
 .meta { font: 0.75rem var(--mono); opacity: 0.7; margin-left: 0.25rem; }
 
 .timeline { list-style: none; padding: 0; margin: 0; }
-.timeline > li { display: grid; grid-template-columns: 7.5rem 1fr; gap: 1rem; padding-bottom: 1.75rem; }
+.timeline > li { display: grid; grid-template-columns: 9.5rem 1fr; gap: 1rem; padding-bottom: 1.75rem; }
 .timeline ul { margin: 0; padding-left: 1.1rem; }
 .when { font: 0.85rem/1.9 var(--mono); color: var(--muted); margin: 0; }
 .now { color: var(--accent); }

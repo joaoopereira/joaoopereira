@@ -1,0 +1,68 @@
+{{ define "main" }}
+<section class="hero" aria-labelledby="name">
+  <h1 id="name">{{ site.Params.name }}</h1>
+  <p class="role">{{ site.Params.role }} at <a href="{{ site.Params.companyURL }}">{{ site.Params.company }}</a> · {{ site.Params.location }}</p>
+  <div class="intro">{{ .Content }}</div>
+  <ul class="links" role="list">
+    <li><a class="button" href="{{ site.Params.cv }}">Download CV <span class="meta">PDF</span></a></li>
+    {{- range site.Params.links }}
+    <li><a href="{{ .url }}" rel="me">{{ .name }}</a></li>
+    {{- end }}
+    <li><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></li>
+  </ul>
+</section>
+
+<section id="career" aria-labelledby="career-h">
+  <h2 id="career-h"><span aria-hidden="true">$ </span>career</h2>
+  <ol class="timeline" role="list">
+    {{- range site.Data.career }}
+    <li>
+      <p class="when">{{ .from }}–{{ if eq (string .to) "now" }}<span class="now">now</span>{{ else }}{{ .to }}{{ end }}</p>
+      <div>
+        <h3>{{ .role }} <span class="org">· {{ .org }}</span></h3>
+        {{- with .summary }}<p>{{ . }}</p>{{ end }}
+        {{- with .points }}
+        <ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+        {{- end }}
+      </div>
+    </li>
+    {{- end }}
+  </ol>
+</section>
+
+<section id="projects" aria-labelledby="projects-h">
+  <h2 id="projects-h"><span aria-hidden="true">$ </span>open source</h2>
+  <ul class="cards" role="list">
+    {{- range site.Data.projects }}
+    <li class="card">
+      <h3><a href="{{ .url }}">{{ .name }}</a></h3>
+      <p>{{ .description }}</p>
+    </li>
+    {{- end }}
+  </ul>
+</section>
+
+<section id="writing" aria-labelledby="writing-h">
+  <h2 id="writing-h"><span aria-hidden="true">$ </span>writing</h2>
+  <ul class="posts" role="list">
+    {{- range site.Data.articles }}
+    <li><span class="src">linkedin</span><div><a href="{{ .url }}">{{ .title }}</a></div></li>
+    {{- end }}
+  </ul>
+</section>
+
+<section id="lighting" aria-labelledby="lighting-h">
+  <h2 id="lighting-h"><span aria-hidden="true">$ </span>lighting design</h2>
+  <p>“Orlando Worm” awards for best light design at CONTE, Portugal's national amateur theatre competition.</p>
+  <table>
+    <caption class="sr-only">Orlando Worm light design awards</caption>
+    <thead><tr><th scope="col">Year</th><th scope="col">Show</th><th scope="col">Result</th></tr></thead>
+    <tbody>
+      {{- range site.Data.awards }}
+      <tr><td>{{ .year }}</td><td><a href="{{ .url }}">{{ .show }}</a></td><td>{{ .note | default "won" }}</td></tr>
+      {{- end }}
+    </tbody>
+  </table>
+</section>
+
+{{ end }}

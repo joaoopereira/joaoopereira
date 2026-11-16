@@ -1,0 +1,9 @@
+- name: dotnet-test-rerun
+  url: https://github.com/joaoopereira/dotnet-test-rerun
+  description: Reruns flaky .NET tests so they stop failing pipelines.
+- name: Critical Manufacturing CLI
+  url: https://github.com/criticalmanufacturing/cli
+  description: CLI to scaffold, build and package MES customisations.
+- name: cloudflare-ddns
+  url: https://github.com/joaoopereira/cloudflare-ddns
+  description: Self-hosted dynamic DNS for Cloudflare domains, with a client, a Worker and a dashboard.

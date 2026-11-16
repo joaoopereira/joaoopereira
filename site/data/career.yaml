@@ -1,0 +1,38 @@
+# Newest first. Shown as the career timeline. summary is optional; keep it to one short line.
+- role: Collaboration Hub & Cloud Domain Lead
+  org: Critical Manufacturing
+  from: "Nov 2026"
+  to: now
+  summary: Collaboration Hub and the cloud it runs on.
+- role: Platform Engineering Lead
+  org: Critical Manufacturing
+  from: "Feb 2025"
+  to: "Nov 2026"
+  summary: Kubernetes and OpenShift platforms, CI/CD and developer tooling.
+- role: Squad Lead, Platform Engineering
+  org: Critical Manufacturing
+  from: "Apr 2024"
+  to: "Feb 2025"
+  summary: OpenShift, Azure DevOps and Ansible.
+- role: DevOps Engineer
+  org: Critical Manufacturing
+  from: "Sep 2022"
+  to: "Apr 2024"
+  summary: Co-founded the DevOps team.
+- role: Senior Software Engineer
+  org: Critical Manufacturing
+  from: "Feb 2020"
+  to: "Sep 2022"
+  summary: MES development in C# and Angular.
+- role: Software Engineer
+  org: Critical Manufacturing
+  from: "Feb 2018"
+  to: "Feb 2020"
+- role: Junior Software Engineer
+  org: Critical Manufacturing
+  from: "Mar 2017"
+  to: "Feb 2018"
+- role: Developer
+  org: Hutchinson Porto
+  from: "Mar 2015"
+  to: "Mar 2017"

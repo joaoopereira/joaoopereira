@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="{{ site.LanguageCode | default "en" }}">
+<head>{{ partial "head.html" . }}</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="prompt" href="/" aria-label="Home">~/joaoopereira<span aria-hidden="true">_</span></a>
+    <nav aria-label="Main">
+      <a href="/#career">career</a>
+      <a href="/#projects">projects</a>
+      <a href="/#lighting">lighting</a>
+      <a href="/#writing">writing</a>
+      <a href="{{ site.Params.cv }}">cv</a>
+    </nav>
+  </header>
+  <main id="main" class="wrap">{{ block "main" . }}{{ end }}</main>
+  <footer class="site-footer wrap">
+    <p>© {{ now.Year }} {{ site.Params.shortName }} · <a href="https://github.com/joaoopereira/joaoopereira">source</a></p>
+  </footer>
+</body>
+</html>

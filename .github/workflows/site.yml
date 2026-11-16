@@ -1,0 +1,23 @@
+name: site
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.145.0" # keep in sync with site/wrangler.toml
+          extended: true
+      - run: hugo --gc --minify --panicOnWarning
+        working-directory: site
+      # internal links only; external sites are too flaky to gate on
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: --offline --no-progress --root-dir ${{ github.workspace }}/site/public site/public
+          fail: true

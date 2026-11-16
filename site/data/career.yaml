@@ -19,11 +19,19 @@
   from: "Sep 2022"
   to: "Apr 2024"
   summary: Co-founded the DevOps team.
-- role: Software Engineer → Senior Software Engineer
+- role: Senior Software Engineer
   org: Critical Manufacturing
-  from: "Mar 2017"
+  from: "Feb 2020"
   to: "Sep 2022"
   summary: MES development in C# and Angular.
+- role: Software Engineer
+  org: Critical Manufacturing
+  from: "Feb 2018"
+  to: "Feb 2020"
+- role: Junior Software Engineer
+  org: Critical Manufacturing
+  from: "Mar 2017"
+  to: "Feb 2018"
 - role: Developer
   org: Hutchinson Porto
   from: "Mar 2015"

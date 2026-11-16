@@ -4,3 +4,9 @@
 - name: Critical Manufacturing CLI
   url: https://github.com/criticalmanufacturing/cli
   description: CLI to scaffold, build and package MES customisations.
+- name: cloudflare-ddns
+  url: https://github.com/joaoopereira/cloudflare-ddns
+  description: Self-hosted dynamic DNS for Cloudflare domains, with a client, a Worker and a dashboard.
+- name: chocolatey-packages
+  url: https://github.com/joaoopereira/chocolatey-packages
+  description: Chocolatey packages kept up to date automatically with GitHub Actions.

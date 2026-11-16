@@ -42,12 +42,14 @@
   </ul>
 </section>
 
-{{- with (where site.RegularPages "Section" "blog") }}
 <section id="writing" aria-labelledby="writing-h">
   <h2 id="writing-h"><span aria-hidden="true">$ </span>writing</h2>
-  {{ partial "post-list.html" (first 3 .) }}
+  <ul class="posts" role="list">
+    {{- range site.Data.articles }}
+    <li><span class="src">linkedin</span><div><a href="{{ .url }}">{{ .title }}</a></div></li>
+    {{- end }}
+  </ul>
 </section>
-{{- end }}
 
 <section id="lighting" aria-labelledby="lighting-h">
   <h2 id="lighting-h"><span aria-hidden="true">$ </span>lighting design</h2>

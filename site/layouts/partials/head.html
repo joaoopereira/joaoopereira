@@ -12,8 +12,6 @@
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-{{- with site.GetPage "/blog" }}{{ with .OutputFormats.Get "rss" }}
-<link rel="alternate" type="application/rss+xml" href="{{ .Permalink }}" title="{{ site.Params.shortName }} · blog">{{ end }}{{ end }}
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}profile{{ end }}">
 <meta property="og:title" content="{{ $title }}">
 <meta property="og:description" content="{{ $desc }}">

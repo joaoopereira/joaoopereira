@@ -2,3 +2,5 @@
 /career/  /#career  301
 /files/2025-CV-JoaoPereira-EN.pdf  /cv.pdf  301
 /files/2025-cv-joaopereira-en.pdf  /cv.pdf  301
+/blog/*  /#writing  301
+/blog  /#writing  301
